@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alex+Brush&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* HOME PAGE */
+
+.space_home {
+  height: 80px;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar .navbar_name {
+  margin: 10px 0px;
+  padding: 15px 10px;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Alex Brush";
+  position: fixed;
+  left: 20px;
+}
+
+.navbar .navbar_menu {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 0px 25px;
+  list-style-type: none;
+  position: fixed;
+  right: 10px;
+  top: 7px;
+}
+
+.navbar .navbar_menu li {
+  margin: 0px 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.navbar .navbar_menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar .navbar_menu li:hover {
+  background-color: #ff0000a5;
+}
+
+.homepage .home_text {
+  width: 50vw;
+  height: 40vh;
+  margin: 150px 0px 0px 150px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.homepage .home_text .details {
+  margin-bottom: 100px;
+}
+
+.homepage .home_text p {
+  font-size: 23px;
+}
+
+.homepage .home_text h1 {
+  font-size: 65px;
+  font-weight: 400;
+}
+
+.homepage .home_text h2 {
+  font-size: 65px;
+  font-weight: 700;
+  position: absolute;
+  top: 110px;
+}
+
+.homepage .home_text h3 {
+  position: absolute;
+  font-weight: 400;
+  top: 198px;
+}
+
+.homepage .home_text h3 span {
+  font-weight: 700;
+  color: #ff0000a5;
+}
+
+.homepage .home_text .social_media {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.homepage .home_text .social_media a {
+  height: 30px;
+  width: 30px;
+}
+
+.homepage .home_text .social_media img {
+  height: 30px;
+  width: 30px;
+}
+
+.home_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.homepage {
+  height: 100vh;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+/* ABOUT PAGE */
+
+.space_about {
+  height: 60px;
+}
+
+.about_page {
+  height: 100vh;
+  width: 100%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about_page .title {
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.about_page .about_me {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.about_page .about_me img {
+  width: 25vw;
+  height: 73vh;
+  margin-left: 60px;
+}
+
+.about_page .about_me .details {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 150px;
+}
+
+.about_page .about_me .details h1 {
+  color: #ff0000a5;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+
+.about_page .about_me .details h2 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.about_page .about_me .details p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.about_page .about_me .details hr {
+  width: 90%;
+  align-self: center;
+  margin-bottom: 20px;
+  border-color: rgb(55, 55, 55);
+}
+
+.about_page .about_me .details h3 {
+  color: #ff0000a5;
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.about_page .about_me .details h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about_page .about_me .details h5 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.about_page .about_me .details h6 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.about_page .about_me .details span {
+  color: #ff0000a5;
+}
+
+.about_page .about_me .details button {
+  font-size: 15px;
+  background-color: #ff000000;
+  border-color: #ff000000;
+  width: 50px;
+}
+
+.about_page .about_me .details button a {
+  text-decoration: none;
+  color: #ff0000a5;
+}
+
+/* PROJECTS */
+
+.project {
+  width: 100%;
+  height: 100vh;
+}
+
+.project .header .title {
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.project .header p {
+  font-size: 13px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.project .cards {
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+
+.project .cards .card {
+  width: 27vw;
+  height: 35vh;
+  background-color: rgb(31, 31, 31);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.project .cards .card .cover {
+  width: 27vw;
+  height: 35vh;
+  padding: 10px;
+  position: absolute;
+}
+
+.project .cards .card .cover:hover {
+  opacity: 0%;
+}
+
+.project .cards .card img {
+  height: 50px;
+  width: 50px;
+}
+
+.project .cards .card h1 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.project .cards .card h2 {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.project button {
+  color: #ff0000a5;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #ff000000;
+  border-color: #ff000000;
+  width: 100%;
+}
+
+.project button a {
+  text-decoration: none;
+  color: #ff0000a5;
+}
+/* CONTACT */
+
+.contact {
+  width: 100%;
+  height: 100vh;
+}
+
+.contact .header .title {
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.contact .header p {
+  font-size: 13px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.contact .cards {
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact .cards .card {
+  width: 27vw;
+  height: 35vh;
+  background-color: rgb(31, 31, 31);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .cards .card img {
+  color: #ff0000a5;
+  width: 6vw;
+  height: 6vw;
+}
+
+.contact .cards .card h1 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.contact .cards .card h2 {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.contact button {
+  color: #ff0000a5;
+  font-size: 15px;
+  background-color: #ff000000;
+  border-color: #ff000000;
+  width: 100%;
+}
